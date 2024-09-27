@@ -12,4 +12,3 @@ src/supplier_app/cli/run.py
 src/supplier_app/cli/supplierLib/Database.py
 src/supplier_app/cli/supplierLib/__init__.py
 src/supplier_app/cli/supplier_cli/__init__.py
-test/test_ref_python.py

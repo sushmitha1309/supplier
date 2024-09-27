@@ -2,7 +2,7 @@ import click
 import logging
 import sys
 import os
-from pyfiglet import Figlet
+#from pyfiglet import Figlet
 from src.supplier_app.cli.supplier_cli import supplier_cli
 
 
@@ -24,7 +24,7 @@ def show_cli_header():
     logging.basicConfig(stream=sys.stdout)
 
     click.echo("-------------------------------------------------------")
-    click.echo(Figlet().renderText("Supplier CLI"))
+    #click.echo(Figlet().renderText("Supplier CLI"))
     click.echo(f'Reference python CLI {os.getenv("_ref_python_cliapp", "")}')
     click.echo("(c) 2024 VDL")
     click.echo("-------------------------------------------------------")
